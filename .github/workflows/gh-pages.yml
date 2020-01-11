@@ -29,5 +29,5 @@ jobs:
       uses: maxheld83/ghpages@v0.2.1
       env:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
+        PUBLISH_BRANCH: master
         PUBLISH_DIR: ./build/html
