@@ -28,7 +28,7 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         with:
           target_branch: gh-pages
-          build_dir: _build/html/
+          build_dir: build/html/
 
 
 # This action probably does everything for you:
